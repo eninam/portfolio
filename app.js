@@ -10,21 +10,18 @@ app.get("/", function (req, res) {
 })
 
 app.get("/home", function (req, res) {
-    console.log("here");
     res.sendFile("home.html", {
         root: __dirname
     });
 })
 
 app.get("/about", function (req, res) {
-    console.log("here");
     res.sendFile("about.html", {
         root: __dirname
     });
 })
 
 app.get("/project", function (req, res) {
-    console.log("here");
     res.sendFile("project.html", {
         root: __dirname
     });

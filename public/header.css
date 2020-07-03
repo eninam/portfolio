@@ -3,10 +3,18 @@
     margin-left: 35em;
     position: fixed;
 }
-img {
+.illustration {
         border-style: none;
         max-width: 40%;
         position: fixed;
-        bottom: 0px;
-        left: 30%;
+        bottom: 10px;
+        left: 50%;
+}
+h2 {
+    position: fixed;
+    bottom: 30px;
+    left: 75%;
+    font-family: 'Amatic SC',cursive;
+    letter-spacing: 5px;
+    color: rgb(117, 69, 18);
 }
