@@ -1,0 +1,12 @@
+.ui.secondary.menu {
+    margin-top: 4em;
+    margin-left: 35em;
+    position: fixed;
+}
+img {
+        border-style: none;
+        max-width: 40%;
+        position: fixed;
+        bottom: 0px;
+        left: 30%;
+}
