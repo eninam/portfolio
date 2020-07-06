@@ -1,7 +1,16 @@
+body {
+    overflow:auto;
+}
+
+.home {
+    position: relative;
+}
+
 .ui.secondary.menu {
-    margin-top: 4em;
-    margin-left: 35em;
     position: fixed;
+    margin-top: 3%;
+    margin-left: 35%;
+    
 }
 .illustration {
         border-style: none;
@@ -10,6 +19,8 @@
         bottom: 10px;
         left: 50%;
 }
+
+
 #name {
     position: fixed;
     bottom: 30px;
@@ -30,35 +41,49 @@
     letter-spacing: 3px;
 }
 .contact {
+    position: fixed;
     background: rgb(117, 69, 18);
     width: 9vw;
     height: 5vw;
-    max-width: 40%;
-    position: fixed;
-    bottom: -10px;
     margin-left: 2%;
+    margin-top: 50%;
     border-radius: 20%;
-}
 
+}
 .contact i {
-    margin-top: 20%;
+    margin-top: 15%;
     margin-left: 10%;
     color: black;
 }
 
-#content {
-    position: fixed;
-    top: 10em;
-    left: 20%;
-}
 
+#content {
+    position: relative;
+    top: 10em;
+    left: 5%;
+}
+#links {
+    position: absolute;
+    top: 90%;
+    left: 85%;
+}
+#links i {
+    color: black;
+}
+#content h4 {
+    position: absolute;
+    top: 90%;
+    left: 7%;
+    font-family: 'Amatic SC',
+        cursive;
+}
 #suggestion {
-    position: fixed;
+    position: absolute;
     background: rgb(117, 69, 18);
-    width: 15vw;
-    height: 4vw;
-    top: 40em;
-    left: 35%;
+    width: 200px;
+    height: 50px;
+    top: 93%;
+    left: 30%;
     border-radius: 60% 40% 40% 20% / 70% 50% 30% 25%;
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
         0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -75,3 +100,42 @@
     color: black;
     
 }
+#project {
+      display: flex;
+      /* establish flex container */
+      flex-direction: row;
+      /* default value; can be omitted */
+      flex-wrap: nowrap;
+      /* default value; can be omitted */
+      justify-content: space-between;
+}
+#project img {
+    width: 30%;
+    height: 40%;
+    /* float: right; */
+}
+.ui.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 10em;  
+}
+
+@media only screen and (max-width:1024px) {
+    #git {
+        position: fixed;
+        bottom: 20px;
+        left: 5%;
+    }
+
+    #linked {
+        position: fixed;
+        bottom: 20px;
+        left: 15%;
+    }
+
+    .contact  {
+        background: white;
+    }
+    
+} 
