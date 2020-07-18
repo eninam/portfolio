@@ -1,5 +1,5 @@
 body {
-    overflow:auto;
+    overflow: auto;
 }
 
 .home {
@@ -10,14 +10,15 @@ body {
     position: fixed;
     margin-top: 3%;
     margin-left: 35%;
-    
+
 }
+
 .illustration {
-        border-style: none;
-        max-width: 40%;
-        position: fixed;
-        bottom: 10px;
-        left: 50%;
+    border-style: none;
+    max-width: 40%;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
 }
 
 
@@ -25,21 +26,23 @@ body {
     position: fixed;
     bottom: 30px;
     left: 75%;
-    font-family: 'Amatic SC',cursive;
+    font-family: 'Amatic SC', cursive;
     letter-spacing: 5px;
     color: rgb(117, 69, 18);
 }
+
 .ui.raised.segment h2 {
     font-family: 'Amatic SC',
-    cursive;
+        cursive;
     letter-spacing: 3px;
 }
 
 .ui.raised.segment p {
     font-family: 'Cormorant Garamond',
-    serif;
+        serif;
     letter-spacing: 3px;
 }
+
 .contact {
     position: fixed;
     background: rgb(117, 69, 18);
@@ -50,6 +53,7 @@ body {
     border-radius: 20%;
 
 }
+
 .contact i {
     margin-top: 15%;
     margin-left: 10%;
@@ -62,14 +66,17 @@ body {
     top: 10em;
     left: 5%;
 }
+
 #links {
     position: absolute;
     top: 90%;
     left: 85%;
 }
+
 #links i {
     color: black;
 }
+
 #content h4 {
     position: absolute;
     top: 90%;
@@ -77,6 +84,7 @@ body {
     font-family: 'Amatic SC',
         cursive;
 }
+
 #suggestion {
     position: absolute;
     background: rgb(117, 69, 18);
@@ -98,27 +106,30 @@ body {
     margin-top: 10%;
     margin-left: 20%;
     color: black;
-    
+
 }
+
 #project {
-      display: flex;
-      /* establish flex container */
-      flex-direction: row;
-      /* default value; can be omitted */
-      flex-wrap: nowrap;
-      /* default value; can be omitted */
-      justify-content: space-between;
+    display: flex;
+    /* establish flex container */
+    flex-direction: row;
+    /* default value; can be omitted */
+    flex-wrap: nowrap;
+    /* default value; can be omitted */
+    justify-content: space-between;
 }
+
 #project img {
     width: 30%;
     height: 40%;
     /* float: right; */
 }
+
 .ui.container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    top: 10em;  
+    top: 10em;
 }
 
 @media only screen and (max-width:1024px) {
@@ -134,8 +145,8 @@ body {
         left: 15%;
     }
 
-    .contact  {
+    .contact {
         background: white;
     }
-    
-} 
+
+}
