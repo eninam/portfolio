@@ -79,7 +79,7 @@ body {
 
 #content h4 {
     position: absolute;
-    top: 90%;
+    top: 87%;
     left: 7%;
     font-family: 'Amatic SC',
         cursive;
@@ -130,6 +130,17 @@ body {
     flex-direction: column;
     justify-content: space-between;
     top: 10em;
+}
+
+.ui.raised.segment .description {
+    width: 42%;
+    margin-left: 60%;
+    margin-top: -30%;
+    font-family: 'Amatic SC',
+    cursive;
+}
+.ui.medium.image {
+    height: 196.40
 }
 
 @media only screen and (max-width:1024px) {
