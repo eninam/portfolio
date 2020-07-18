@@ -133,11 +133,11 @@ body {
 }
 
 .ui.raised.segment .description {
-    width: 42%;
+    width: 43%;
     margin-left: 60%;
     margin-top: -30%;
-    font-family: 'Amatic SC',
-    cursive;
+    font-family: 'Cormorant Garamond',
+    serif;
 }
 .ui.medium.image {
     height: 196.40
