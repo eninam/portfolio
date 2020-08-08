@@ -12,7 +12,12 @@ body {
     margin-left: 35%;
 
 }
-
+#photo {
+    height: 100px;
+    width: 100px;
+    margin-left: 250px;
+    border-radius: 25px;
+}
 .illustration {
     border-style: none;
     max-width: 40%;
