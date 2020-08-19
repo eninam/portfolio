@@ -97,6 +97,11 @@ body {
         cursive;
 }
 
+#content p {
+     font-family: 'Libre Caslon Display',
+     serif;
+}
+
 #suggestion {
     position: absolute;
     background: rgb(117, 69, 18);
@@ -181,10 +186,5 @@ body {
         display: block;
         margin: 0 auto;
         font-size: 10px;
-    }
-    #content h4 {
-        position: absolute;
-        top: 90%;
-        left: 4%;
     }
 }
