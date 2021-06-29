@@ -6,10 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <!-- <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="stylesheet.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.esm.min.js"
+        integrity="sha384-pXJyILVSfKOB4xKYbM0dJr+oH4iVvo4s7mWbiTHe6LSxd38hl16DMj6AOJyy2Wcz" crossorigin="anonymous">
+    </script>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174997701-1"></script>
     <script>
@@ -26,23 +42,113 @@
 </head>
 
 <body>
-    <div class="ui brown secondary menu">
-        <a href="home" class=" active item"><i class="home icon"></i> Home </a>
-        <a href="project" class="item"><i class="folder open outline icon"></i> Portfolio </a>
-        <!-- <a href="about" class="item"> <i class="address card icon"></i>About </a> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Eninam</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="project">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h4>Welcome! My name is </h4>
+        <h1>Eninam Takougnadi.</h1>
+        <div class="blurb">
+            <p style="color: gray;"> <span style="font-weight: 900; color: black;"> Software Developer</span>. I am
+                currently a student at Northeastern University majoring in Conputer Science and Business
+            </p>
+        </div>
+        <div class="buttons">
+            <a target="_blank" rel="noopener noreferrer" class="btn btn-outline-success"
+                href="https://github.com/eninam" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                </svg> Github</a>
+            <a target="_blank" rel="noopener noreferrer" class="btn btn-outline-success" href="#" role="button"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                </svg> LinkedIn</a>
+            <a href="mailto:takougnadi-kpatcha.e@northeastern.edu" class="btn btn-outline-success" href="#"
+                role="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path
+                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+                </svg>Email</a>
+        </div>
+        <div class="row" style="width: 80%; margin-top: 40px;">
+            <!-- <div class="col-sm-6">
+                <img style="width: 50%;max-width: 300px; max-height: 300px;" class="card-img" src="photo.png"
+                    alt="Card image" />
+            </div> -->
+            <div class="col-sm-6">
+                <div class="card-body-right">
+                    <h2>About Me</h2>
+                    <p> Hey! I'm Eninam,
+                        I am interested in full-stack application. I currently use <span
+                            style="color: #8D8741;">Angular</span>
+                        for
+                        the front end,
+                        <span style="color: #8D8741;">NestJS</span>
+                        for the
+                        backend
+                        and <span style="color: #8D8741;">MongoDB </span>for the database.
+                        I will be graduating Northeastern University in December of 2022
+                        When I am not coding I really like watching anime, listening to music/podcasts, and visiting
+                        different types of restaurants
+
+                    </p>
+                    <p>When I am not coding I really like watching anime, listening to music/podcasts, and visiting
+                        different types of restaurants </p>
+                    <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <img style="border-radius:50%; width: 100%;max-width: 300px; max-height: 300px;     margin-top: 40px;
+    margin-left: 70px;" class="card-img" src="portfolioImage.png" alt="Card image" />
+            </div>
+        </div>
+        <!-- <div class="about" style="width: 80%; ">
+            <h2>About Me</h2>
+            <div class="left" style="width: 50%; float: left; ">
+                <p> Hey! I'm Eninam
+                    I am interested in full-stack application. I currently use <span
+                        style="color: #8D8741;">Angular</span>
+                    for
+                    the front end,
+                    <span style="color: #8D8741;">NestJS</span>
+                    for the
+                    backend
+                    and <span style="color: #8D8741;">MongoDB </span>for the database.
+                    I will be graduating Northeastern University in December of 2022</p>
+
+                <p>When I am not coding I really like watching anime, listening to music/podcasts, and visiting
+                    different types of restaurants </p>
+            </div>
+            <img style="width: 50%;max-width: 300px; max-height: 300px; float: right;" src="photo.png"
+                class="img-responsive " alt="...">
+        </div> -->
+        <!-- <div class="right">
+                <img id="photo" src="photo.png" alt="a picture of me">
+            </div> -->
+
+    </div>
     </div>
 
-
-    <img class="illustration" src="07.png" alt="absurd illustration">
-    <h2 id="name">Eninam Takougnadi</h2>
-    <div class="contact">
-        <a id="linked" target="_blank" rel="noopener noreferrer"
-            href="https://linkedin.com/in/eninam-takougnadi-947275174"><i class="big linkedin icon"></i></a>
-        <a id="git" target="_blank" rel="noopener noreferrer" href="https://github.com/eninam/portfolio"> <i
-                class="big github icon"></i></a>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
-    <script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script> -->
+    <!-- <script>
         anime({
             targets: '.illustration',
             rotate: 8,
@@ -51,7 +157,6 @@
             direction: 'alternate',
             easing: 'easeInOutCirc'
         });
-
 
         // $(window).on('resize', function() {
         // if($(window).height() > 400) {
@@ -62,7 +167,7 @@
         // $('#body').removeClass('limit1200');
         // }
         // })
-    </script>
+    </script>  -->
 </body>
 
 </html>

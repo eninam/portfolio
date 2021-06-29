@@ -1,190 +1,46 @@
 body {
-    overflow: auto;
+    font-family: 'Raleway',
+    sans-serif;
+    ;
+    /* font-weight:bolder */
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar-brand {
+  margin-left: 50px;
+}
+.collapse {
+   margin-left: 900px;
+}
+.container{
+    margin-top: 80px
 }
 
-.home {
-    position: relative;
+h4, h3{
+    color: #8D8741;
+    /* font-weight:bolder */
+    
 }
-
-.ui.secondary.menu {
-    position: fixed;
-    margin-top: 3%;
-    margin-left: 35%;
+.card a {
+    margin-bottom: 10px;
 }
-#photo {
-    height: 100px;
-    width: 100px;
-    margin-left: 250px;
-    border-radius: 25px;
-    border: none;
-    display: block;
-    margin: 0 auto;
+.blurb {
+    margin-top: 40px;
+    font-size: 28px;
 }
-.illustration {
-    border-style: none;
-    max-width: 40%;
-    position: fixed;
-    bottom: 10px;
-    left: 50%;
+.buttons a {
+    margin-right: 20px;
 }
-
-
-#name {
-    position: fixed;
-    bottom: 30px;
-    left: 75%;
-    font-family: 'Amatic SC', cursive;
-    letter-spacing: 5px;
-    color: rgb(117, 69, 18);
+.about h2 {
+    margin-top: 50px;
 }
-
-.ui.raised.segment h2 {
-    font-family: 'Amatic SC',
-        cursive;
-    letter-spacing: 3px;
+.card {
+    margin-right: 30px;
+    margin-bottom: 20px;
 }
-/* .ui.raised.segment img {
-     display:block;
-     margin:auto;
-} */
-
-.ui.raised.segment ul {
-    font-family: 'Cormorant Garamond',
-        serif;
-    list-style-type: none;
-    letter-spacing: 3px;
-}
-
-.contact {
-    position: fixed;
-    background: rgb(117, 69, 18);
-    width: 9vw;
-    height: 5vw;
-    margin-left: 2%;
-    margin-top: 50%;
-    border-radius: 20%;
-
-}
-
-.contact i {
-    margin-top: 15%;
-    margin-left: 10%;
-    color: black;
-}
-
-
-#content {
-    position: relative;
-    top: 10em;
-    left: 5%;
-}
-
-#links {
-    position: absolute;
-    top: 90%;
-    left: 85%;
-}
-
-#links i {
-    color: black;
-}
-
-#content h4 {
-    position: absolute;
-    top: 87%;
-    left: 7%;
-    font-family: 'Amatic SC',
-        cursive;
-}
-
-#content p {
-     font-family: 'Libre Caslon Display',
-     serif;
-}
-
-#suggestion {
-    position: absolute;
-    background: rgb(117, 69, 18);
-    width: 200px;
-    height: 50px;
-    top: 93%;
-    left: 30%;
-    border-radius: 60% 40% 40% 20% / 70% 50% 30% 25%;
-    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-        0 12.5px 10px rgba(0, 0, 0, 0.06),
-        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-        0 100px 80px rgba(0, 0, 0, 0.12);
-
-}
-
-#suggestion i {
-    margin-top: 10%;
-    margin-left: 20%;
-    color: black;
-
-}
-
-#project {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-
-#project img {
-    width: 30%;
-    height: 40%;
-}
-
-.ui.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    top: 10em;
-}
-
-.ui.raised.segment .description {
-    display: block;
-    margin: 0 auto;
-    font-size: 10px;
-}
-.ui.medium.image {
-    height: 196.40;
-    display:block;
-    margin:auto;
-    margin-bottom: 10%;
-}
-
-@media only screen and (max-width:1024px) {
-    #git {
-        position: fixed;
-        bottom: 20px;
-        left: 5%;
-    }
-
-    #linked {
-        position: fixed;
-        bottom: 20px;
-        left: 15%;
-    }
-
-    .contact {
-        background: white;
-    }
-
-}
-
-@media only screen and (max-width:850px) {
-    .ui.secondary.menu {
-        margin-left: 10%;
-        text-align: justify;
-    }
-
-    .ui.raised.segment .description {
-        display: block;
-        margin: 0 auto;
-        font-size: 10px;
-    }
+.card svg:hover {
+    /* width: 50%; */
+    cursor: pointer;
+    
 }
