@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 const PORT = process.env.PORT || 3000;
 app.use(express.static('public'));
-
+// app.enableCors()
 app.get("/", function (req, res) {
     console.log("here");
     res.sendFile("home.html", {
